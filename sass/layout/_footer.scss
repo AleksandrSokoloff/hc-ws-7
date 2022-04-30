@@ -1,0 +1,72 @@
+.footer {
+    background-color: var(--second-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 252px;
+}
+
+.footer-logo {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--first-title-color);
+
+    margin-bottom: 20px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1170px;
+}
+
+.logo-and-address {
+    margin-right: 70px;
+    min-width: 231px;
+}
+
+.footer-address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-address-post,
+.footer-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-address-post {
+    color: var(--first-title-color);
+}
+
+.footer-address-link {
+    color: var(--second-footer-color);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
+}
+    
+
+.footer-social-icon {
+    fill: currentColor;
+}
+
+footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    widows: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--additional-color-footer);
+    color: var(--first-title-color);
+}

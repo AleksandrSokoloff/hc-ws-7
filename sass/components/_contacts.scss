@@ -1,0 +1,8 @@
+.contacts-icon {
+    fill: currentColor;
+    margin-right: 8px;
+
+    @include mq (desktop) {
+        margin-right: 10px;
+    }
+}
